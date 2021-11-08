@@ -1,0 +1,4 @@
+gym-minigrid
+pymdptoolbox
+hydra-core
+GPy

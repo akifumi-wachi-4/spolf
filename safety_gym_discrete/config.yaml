@@ -1,0 +1,23 @@
+sim_type: safe_glm
+idx_sim: 2
+
+agent:
+  rl_algo: AMPI
+  stack_workaround: etse
+  num_stack_workaround: 5
+  num_timestep: 2500
+  num_init_info: 20
+  agent_view: False
+  delta: 0.05
+  gamma: 0.99
+
+env:
+  seed: -1
+  render: True
+  size: 5
+  view_size: 5
+  dim_context: 32
+  hyp_obs: True
+
+display:
+  plot_result: True

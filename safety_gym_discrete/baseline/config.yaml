@@ -1,0 +1,15 @@
+sim_type: trpo
+idx_sim: 2
+
+agent:
+  num_episode: 1000
+  num_init_info: 40
+  num_epoch: 640
+  gamma: 0.99
+
+env:
+  render: False
+  size: 5
+  dim_context: 32
+  reward_distance: 0.01
+
