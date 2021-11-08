@@ -1,0 +1,29 @@
+sim_type: safe_glm
+idx_sim: 0
+
+agent:
+  rl_algo: AMPI
+  stack_workaround: etse
+  num_stack_workaround: 20
+  num_timestep: 400
+  num_init_info: 20
+  agent_view: False
+  delta: 0.05
+  gamma: 0.999
+  step_glm_migration_threshold: 0.2
+  step_gp_migration_threshold: 0.025
+
+env:
+  reuse_env: False
+  env_name: 'MiniGrid-Empty-SPOLF-v0'
+  env_param_file: 'myenv/params/10/env_settings.npz'
+  tile_size: 32
+  seed: -1
+  render: True
+  size: 25
+  view_size: 7
+  dim_feature: 5
+  hyp_obs: True
+
+display:
+  plot_result: False
