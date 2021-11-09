@@ -1,7 +1,6 @@
 # Author: Akifumi Wachi
 # Copyright 2021- IBM Inc. All rights reserved
 # SPDX-License-Identifier: MIT
-#
 
 import copy
 import numpy as np

@@ -1,5 +1,5 @@
-gym-minigrid
+gym-minigrid==1.0.2
 pymdptoolbox
-hydra-core
+hydra-core==1.1.1
 GPy
-gym == 0.20.0
+gym==0.20.0
