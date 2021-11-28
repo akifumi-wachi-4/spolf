@@ -1,4 +1,7 @@
 # Safe Policy Optimization with Local Feature (SPO-LF)
+
+[![Conference](https://img.shields.io/badge/NeurIPS-Accepted-success)](https://proceedings.neurips.cc/paper/2021/hash/adf7e293599134777339fdc40ddfa818-Abstract.html) [![Arxiv](http://img.shields.io/badge/arxiv-2110.14754-B31B1B.svg)](https://arxiv.org/abs/2111.04894)
+
 This is the source-code for implementing the algorithms in the paper "Safe Policy Optimization with Local Generalized Linear Function Approximations" which was presented in NeurIPS-21.
 
 ## Installation
