@@ -48,8 +48,7 @@ python main.py sim_type=safe_glm env.reuse_env=True
 ## Safety-Gym Experiment
 
 The source code necessary for our safety-gym experiment is contained in `/safety_gym_discrete` folder. 
-Our experiment is based on [safety-gym](https://github.com/openai/safety-gym). Our proposed method utilize dynamic programming algorithms to solve Bellman Equation, so we modified `engine.py` to discrtize the environment. We attach modified safety-gym source code in `/safety_gym_discrete/engine.py`.
-To use the modified library, please clone [safety-gym](https://github.com/openai/safety-gym), then replace `safety-gym/safety_gym/envs/engine.py` using `/safety_gym_discrete/engine.py` in our repo. Using the following commands to install the modified library:
+Our experiment is based on [safety-gym](https://github.com/openai/safety-gym). 
 
 ```bash
 cd safety_gym
